@@ -1,0 +1,21 @@
+int main(){
+   int idade;
+   printf("digite sua idade");
+   scanf("%d" , &idade);
+   
+   do{
+       printf("digite uma idade valida");
+       scanf("%d", &idade);
+    }while(idade<0);
+   
+   if(idade>=18){
+       printf("entra\n");
+   }else if("idade<16"){
+       printf("chora\n");
+   }else{
+       printf("espie 5 minutos");
+   }
+   printf("va para casa\n");
+   return 0;
+   }
+   
